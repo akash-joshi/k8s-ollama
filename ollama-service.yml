@@ -6,6 +6,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
+  # This is the port that the service will listen on. It does nothing for now.
     - port: 30434
       targetPort: 11434
   selector:
